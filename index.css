@@ -2,7 +2,8 @@ html, body {
     margin: 0;
     padding: 0;
     text-align: center;
-    background-color: antiquewhite  ;
+    background-color: antiquewhite ;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 .content {
@@ -11,13 +12,40 @@ html, body {
     margin: 100px auto;
 }
 
+/* TYPOGRAPHY */
 
+    .user-full-name {
+        margin: 0;
+        font-weight: 700;
+    }
+
+    .user-location {
+        margin: 0;
+        font-weight: 400;
+    }
 /* HEADER */
 
 header {
     width: 375px;
     height: 70px;
     border-bottom: 2px solid #c6c6c6;
+}
+
+/* MAIN */
+
+main {
+    height: 545px;
+
+}
+
+.profile-bar {
+    height: 50px;
+}
+
+.text-box {
+    display: block;
+    float: left;
+    margin-top: 5px;
 }
 
 
@@ -38,4 +66,9 @@ header {
     height: 35px;
     border-radius: 15px;
     margin: 15px 20px;
+}
+
+.profile-bar .avatar {
+    float: left;
+    margin-top: 5px;
 }
