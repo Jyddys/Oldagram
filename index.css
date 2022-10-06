@@ -13,16 +13,33 @@ html, body {
 }
 
 /* TYPOGRAPHY */
+p {
+    font-size: 13px;
+}
 
-    .user-full-name {
-        margin: 0;
-        font-weight: 700;
-    }
+.bold-text {
+    font-weight: 700;
+}
 
-    .user-location {
-        margin: 0;
-        font-weight: 400;
-    }
+.user-full-name {
+    margin: 0;
+    font-weight: 700;
+}
+
+.user-location {
+    margin: 0;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.username-caption {
+    text-align: left;
+}
+
+.likes {
+    font-weight: 700;
+    text-align: left;
+ }
 /* HEADER */
 
 header {
@@ -71,4 +88,48 @@ main {
 .profile-bar .avatar {
     float: left;
     margin-top: 5px;
+}
+
+.user-image {
+    width: 375px;
+    height: 375px;
+}
+
+/* SYMBOLS */
+
+.symbols {
+    margin-left: 10px;
+}
+
+.symbols-box {
+    display: grid;
+    grid-template-columns: 30px 30px 30px;
+    margin-top: 20px;
+    width: 100px;
+}
+
+.like {
+    width: 25px;
+    background: none;
+}
+
+.like:hover {
+    background: red;
+}
+
+.comment {
+    width: 25px;
+}
+
+.comment:hover {
+    background: aquamarine;
+}
+
+.share {
+    width: 25px;
+    background: none;
+}
+
+.share:hover {
+    background: green;
 }
