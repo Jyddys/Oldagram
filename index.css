@@ -1,0 +1,41 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: antiquewhite  ;
+}
+
+.content {
+    background-color: #fff;
+    width: 375px;
+    margin: 100px auto;
+}
+
+
+/* HEADER */
+
+header {
+    width: 375px;
+    height: 70px;
+    border-bottom: 2px solid #c6c6c6;
+}
+
+
+/* PICTURES */
+
+.logo {
+    float: left;
+    display: inline;
+    width: 130px;
+    height: 40px;
+    margin: 15px 20px;
+}
+
+.avatar {
+    float: right;
+    display: inline;
+    width: 35px;
+    height: 35px;
+    border-radius: 15px;
+    margin: 15px 20px;
+}
