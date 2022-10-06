@@ -52,17 +52,21 @@ header {
 
 main {
     height: 545px;
+}
 
+#main {
+    background-color: #fff;
 }
 
 .profile-bar {
     height: 50px;
+    margin-top: 10px;
 }
 
 .text-box {
     display: block;
     float: left;
-    margin-top: 5px;
+    margin-top: 10px;
 }
 
 
@@ -90,7 +94,7 @@ main {
     margin-top: 5px;
 }
 
-.user-image {
+#user-image {
     width: 375px;
     height: 375px;
 }
@@ -108,13 +112,13 @@ main {
     width: 100px;
 }
 
-.like {
+#like {
     width: 25px;
     background: none;
 }
 
-.like:hover {
-    background: red;
+#like:hover {
+    opacity: 0.5;
 }
 
 .comment {
@@ -122,7 +126,7 @@ main {
 }
 
 .comment:hover {
-    background: aquamarine;
+    opacity: 0.5;
 }
 
 .share {
@@ -131,5 +135,6 @@ main {
 }
 
 .share:hover {
-    background: green;
+    opacity: 0.5;
 }
+
